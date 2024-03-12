@@ -17,5 +17,6 @@
 
 	button {
 		font-family: 'Montserrat', sans-serif;
+		transition: background-color .5s;
 	}
 </style>
