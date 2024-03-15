@@ -71,7 +71,9 @@
 	}
 
 	.hero {
-		background-image: url('$lib/images/hero-section.jpg');
+		/** Darken background image */
+		background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+			url('$lib/images/hero-section.jpg');
 		background-size: cover;
 		height: 100vh;
 	}
