@@ -2,11 +2,14 @@
 	import logo from '$lib/images/logo.png';
 	import Button from '../Button.svelte';
 	import MenuButton from '../MenuButton.svelte';
+	import { createEventDispatcher } from 'svelte';
 
 	export let menuIsOpen = false;
 
-	function openMenu() {
-		menuIsOpen = true;
+	const dispatch = createEventDispatcher();
+
+	function dispatchClickEvent() {
+		dispatch('menubtnclicked');
 	}
 </script>
 
@@ -23,7 +26,7 @@
 			<a href="#news" class="nav-link">News</a>
 			<a href="#contact" class="nav-link">Contact</a>
 		</div>
-		<MenuButton {menuIsOpen} on:click={openMenu} />
+		<MenuButton {menuIsOpen} on:click={dispatchClickEvent} />
 	</nav>
 	<div class="hero-main flex grow flex-col justify-end px-[3vw] md:justify-center md:px-[10vw]">
 		<div>
@@ -39,7 +42,7 @@
 </div>
 
 <style>
-    .hero {
+	.hero {
 		/** Darken background image */
 		background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
 			url('$lib/images/hero-section.jpg');

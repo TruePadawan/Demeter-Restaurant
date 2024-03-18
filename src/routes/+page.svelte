@@ -5,6 +5,10 @@
 
 	let menuIsOpen = false;
 
+	function openMenu() {
+		menuIsOpen = true;
+	}
+
 	function closeMenu() {
 		menuIsOpen = false;
 	}
@@ -30,7 +34,7 @@
 		<a href="#see-menu" class="nav-link">See Menu</a>
 	</div>
 </div>
-<Hero {menuIsOpen} />
+<Hero {menuIsOpen} on:menubtnclicked={openMenu} />
 
 <style>
 	:global(body) {
