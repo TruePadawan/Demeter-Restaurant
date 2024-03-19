@@ -18,6 +18,6 @@
 			A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred
 			music, or a noble picture, or a passage from the grander poets. It always does one good.
 		</p>
-		<Button>Read more</Button>
+		<Button className="lg:self-start">Read more</Button>
 	</div>
 </div>
