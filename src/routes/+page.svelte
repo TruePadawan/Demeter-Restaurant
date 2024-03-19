@@ -2,6 +2,7 @@
 	import '../app.css';
 	import MenuButton from '$lib/components/MenuButton.svelte';
 	import Hero from '$lib/components/sections/Hero.svelte';
+	import History from '$lib/components/sections/History.svelte';
 
 	let menuIsOpen = false;
 
@@ -35,6 +36,7 @@
 	</div>
 </div>
 <Hero {menuIsOpen} on:menubtnclicked={openMenu} />
+<History />
 
 <style>
 	:global(body) {
