@@ -13,10 +13,10 @@
 	}
 </script>
 
-<div class="hero flex flex-col bg-center xl:bg-top">
+<div class="hero flex h-screen flex-col bg-cover bg-center xl:bg-top">
 	<nav class="flex items-center justify-between px-6 pt-3 lg:px-32 lg:pt-5">
 		<a class="flex items-center gap-x-1 no-underline" href="/">
-			<img class="logo" src={logo} alt="demeter logo" />
+			<img class="h-7 w-auto" src={logo} alt="demeter logo" />
 			<span class="company-name text-4xl font-bold text-white">DEMETER</span>
 		</a>
 		<div class="hidden gap-x-10 text-xl font-light text-white md:flex">
@@ -46,12 +46,5 @@
 		/** Darken background image */
 		background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
 			url('$lib/images/hero-section.jpg');
-		background-size: cover;
-		height: 100vh;
-	}
-
-	.logo {
-		width: auto;
-		height: 28px;
 	}
 </style>
