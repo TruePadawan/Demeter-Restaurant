@@ -3,7 +3,7 @@
 	import MenuButton from '$lib/components/MenuButton.svelte';
 	import Hero from '$lib/components/sections/Hero.svelte';
 	import History from '$lib/components/sections/History.svelte';
-	import SpecialMeals from "$lib/components/sections/SpecialMeals.svelte";
+	import SpecialMeals from '$lib/components/sections/SpecialMeals.svelte';
 
 	let menuIsOpen = false;
 
