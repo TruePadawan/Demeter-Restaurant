@@ -26,14 +26,14 @@
 		<MenuButton {menuIsOpen} on:click={closeMenu} />
 	</div>
 	<div class="flex flex-col items-center gap-5 text-xl font-light text-white">
-		<a href="#about-us" class="nav-link">About Us</a>
-		<a href="#special-meals" class="nav-link">Menu</a>
-		<a href="#events" class="nav-link">Events</a>
-		<a href="#news" class="nav-link">News</a>
-		<a href="#contact" class="nav-link">Contact</a>
+		<a href="#about-us">About Us</a>
+		<a href="#special-meals">Menu</a>
+		<a href="#events">Events</a>
+		<a href="#news">News</a>
+		<a href="#contact">Contact</a>
 		<hr class="w-full" />
-		<a href="#book-a-table" class="nav-link">Book a table</a>
-		<a href="#see-menu" class="nav-link">See Menu</a>
+		<a href="#book-a-table">Book a table</a>
+		<a href="#see-menu">See Menu</a>
 	</div>
 </div>
 <Hero {menuIsOpen} on:menubtnclicked={openMenu} />

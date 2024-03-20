@@ -20,11 +20,11 @@
 			<span class="company-name text-4xl font-medium text-white">DEMETER</span>
 		</a>
 		<div class="hidden gap-x-10 text-xl font-light text-white md:flex">
-			<a href="#about-us" class="nav-link">About Us</a>
-			<a href="#special-meals" class="nav-link">Menu</a>
-			<a href="#events" class="nav-link">Events</a>
-			<a href="#news" class="nav-link">News</a>
-			<a href="#contact" class="nav-link">Contact</a>
+			<a href="#about-us">About Us</a>
+			<a href="#special-meals">Menu</a>
+			<a href="#events">Events</a>
+			<a href="#news">News</a>
+			<a href="#contact">Contact</a>
 		</div>
 		<MenuButton {menuIsOpen} on:click={dispatchClickEvent} />
 	</nav>
