@@ -20,7 +20,7 @@
 <div
 	class="{!menuIsOpen
 		? 'hidden'
-		: ''} absolute flex h-screen w-screen flex-col gap-4 bg-[#333333]/80 px-6 pt-6"
+		: ''} fixed flex h-screen w-screen flex-col gap-4 bg-[#333333]/80 px-6 pt-6"
 >
 	<div class="self-end">
 		<MenuButton {menuIsOpen} on:click={closeMenu} />
