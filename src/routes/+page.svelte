@@ -3,6 +3,7 @@
 	import MenuButton from '$lib/components/MenuButton.svelte';
 	import Hero from '$lib/components/sections/Hero.svelte';
 	import History from '$lib/components/sections/History.svelte';
+	import SpecialMeals from "$lib/components/sections/SpecialMeals.svelte";
 
 	let menuIsOpen = false;
 
@@ -26,7 +27,7 @@
 	</div>
 	<div class="flex flex-col items-center gap-5 text-xl font-light text-white">
 		<a href="#about-us" class="nav-link">About Us</a>
-		<a href="#menu" class="nav-link">Menu</a>
+		<a href="#special-meals" class="nav-link">Menu</a>
 		<a href="#events" class="nav-link">Events</a>
 		<a href="#news" class="nav-link">News</a>
 		<a href="#contact" class="nav-link">Contact</a>
@@ -37,6 +38,7 @@
 </div>
 <Hero {menuIsOpen} on:menubtnclicked={openMenu} />
 <History />
+<SpecialMeals />
 
 <style>
 	:global(body) {
