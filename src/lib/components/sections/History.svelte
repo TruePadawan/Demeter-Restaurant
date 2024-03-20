@@ -4,6 +4,7 @@
 </script>
 
 <div
+	id="about-us"
 	class="flex flex-col gap-4 px-[2vw] py-[4vw] lg:flex-row lg:items-center lg:gap-x-[6vw] lg:px-[8vw] lg:py-[10vw]"
 >
 	<img
