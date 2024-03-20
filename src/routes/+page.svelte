@@ -40,16 +40,9 @@
 
 <style>
 	:global(body) {
-		font-family: 'Korolev', sans-serif;
+		font-family: 'Rethink Sans', sans-serif;
 		margin: 0;
 		color: white;
 		height: 100vh;
 	}
-
-	/* not sure why there is some odd space on mobile, this is a quick fix for it */
-	/* @media screen and (max-width: 400px) {
-		.company-name {
-			height: 34px;
-		}
-	} */
 </style>
