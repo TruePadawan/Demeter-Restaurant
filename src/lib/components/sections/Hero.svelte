@@ -21,7 +21,7 @@
 		</a>
 		<div class="hidden gap-x-10 text-xl font-light text-white md:flex">
 			<a href="#about-us" class="nav-link">About Us</a>
-			<a href="#menu" class="nav-link">Menu</a>
+			<a href="#special-meals" class="nav-link">Menu</a>
 			<a href="#events" class="nav-link">Events</a>
 			<a href="#news" class="nav-link">News</a>
 			<a href="#contact" class="nav-link">Contact</a>
