@@ -5,7 +5,7 @@
 
 <div
 	id="special-meals"
-	class="flex flex-col gap-4 px-[2vw] py-[4vw] lg:h-screen lg:flex-row lg:items-center lg:gap-x-[6vw] lg:px-[8vw] lg:py-[10vw]"
+	class="mt-4 flex flex-col gap-4 px-[2vw] py-[4vw] lg:h-screen lg:flex-row lg:items-center lg:gap-x-[6vw] lg:px-[8vw] lg:py-[10vw]"
 >
 	<div class="flex flex-col gap-2 lg:flex-1">
 		<p class="text-3xl font-light text-[#6e6e6a]">Check out our</p>
