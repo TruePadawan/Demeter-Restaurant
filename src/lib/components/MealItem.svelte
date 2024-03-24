@@ -4,7 +4,7 @@
 	export let price: number;
 </script>
 
-<li class="flex justify-between text-[#6e6e6a]">
+<li class="flex justify-between text-primary">
 	<div class="flex flex-col gap-1">
 		<p class="text-xl font-medium">{name}</p>
 		<p class="font-thin">{extraInfo}</p>
