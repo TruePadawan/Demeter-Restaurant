@@ -4,6 +4,7 @@
 	import Hero from '$lib/components/sections/Hero.svelte';
 	import History from '$lib/components/sections/History.svelte';
 	import SpecialMeals from '$lib/components/sections/SpecialMeals.svelte';
+	import UpcomingEvents from '$lib/components/sections/UpcomingEvents.svelte';
 
 	let menuIsOpen = false;
 
@@ -39,6 +40,7 @@
 <Hero {menuIsOpen} on:menubtnclicked={openMenu} />
 <History />
 <SpecialMeals />
+<UpcomingEvents />
 
 <style>
 	:global(body) {
