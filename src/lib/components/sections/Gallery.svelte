@@ -7,7 +7,7 @@
 	import Interior6 from '$lib/images/interior-6.jpg';
 </script>
 
-<div class="flex flex-col gap-y-9 px-[2vw] py-[6vw] lg:px-[6vw] lg:py-[8vw]">
+<div class="mt-4 flex flex-col gap-y-9 px-[2vw] py-[6vw] lg:px-[6vw] lg:py-[8vw]">
 	<div class="text-center">
 		<p class="text-2xl text-primary">Gallery</p>
 		<p class="mt-2 text-5xl font-bold text-secondary">Our Interior</p>
