@@ -5,6 +5,7 @@
 	import History from '$lib/components/sections/History.svelte';
 	import SpecialMeals from '$lib/components/sections/SpecialMeals.svelte';
 	import UpcomingEvents from '$lib/components/sections/UpcomingEvents.svelte';
+	import Gallery from '$lib/components/sections/Gallery.svelte';
 
 	let menuIsOpen = false;
 
@@ -41,6 +42,7 @@
 <History />
 <SpecialMeals />
 <UpcomingEvents />
+<Gallery />
 
 <style>
 	:global(body) {
