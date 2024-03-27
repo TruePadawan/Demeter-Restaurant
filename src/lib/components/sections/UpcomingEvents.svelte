@@ -3,7 +3,10 @@
 	import Button from '../Button.svelte';
 </script>
 
-<div id="events" class="flex flex-col gap-y-9 bg-[#333333] px-[2vw] py-[6vw] lg:px-[6vw] lg:py-[8vw]">
+<div
+	id="events"
+	class="flex flex-col gap-y-9 bg-[#333333] px-[2vw] py-[6vw] lg:px-[6vw] lg:py-[8vw]"
+>
 	<div class="text-center">
 		<p class="text-2xl">Party with us!</p>
 		<p class="mt-2 text-5xl font-bold">Upcoming Events</p>
