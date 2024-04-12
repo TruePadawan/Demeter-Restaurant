@@ -7,6 +7,7 @@
 	import UpcomingEvents from '$lib/components/sections/UpcomingEvents.svelte';
 	import Gallery from '$lib/components/sections/Gallery.svelte';
 	import AboutUs from '$lib/components/sections/AboutUs.svelte';
+	import OurChef from '$lib/components/sections/OurChef.svelte';
 
 	let menuIsOpen = false;
 
@@ -45,6 +46,7 @@
 <UpcomingEvents />
 <Gallery />
 <AboutUs />
+<OurChef />
 
 <style>
 	:global(body) {
