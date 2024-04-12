@@ -1,5 +1,5 @@
 <script>
-	import logo from '$lib/images/logo.png';
+	import logo from '$lib/images/logo/logo.png';
 	import Button from '../Button.svelte';
 	import MenuButton from '../MenuButton.svelte';
 	import { createEventDispatcher } from 'svelte';
