@@ -9,6 +9,7 @@
 	import AboutUs from '$lib/components/sections/AboutUs.svelte';
 	import OurChef from '$lib/components/sections/OurChef.svelte';
 	import ReserveTable from '$lib/components/sections/ReserveTable.svelte';
+	import Footer from '$lib/components/sections/Footer.svelte';
 
 	let menuIsOpen = false;
 
@@ -35,12 +36,13 @@
 		<a href="#special-meals">Menu</a>
 		<a href="#events">Events</a>
 		<a href="#news">News</a>
-		<a href="#contact">Contact</a>
+		<a href="#reserve-table">Contact</a>
 		<hr class="w-full" />
 		<a href="#book-a-table">Book a table</a>
 		<a href="#see-menu">See Menu</a>
 	</div>
 </div>
+
 <Hero {menuIsOpen} on:menubtnclicked={openMenu} />
 <History />
 <SpecialMeals />
@@ -49,6 +51,7 @@
 <AboutUs />
 <OurChef />
 <ReserveTable />
+<Footer />
 
 <style>
 	:global(body) {

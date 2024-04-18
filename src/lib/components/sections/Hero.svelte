@@ -24,7 +24,7 @@
 			<a href="#special-meals">Menu</a>
 			<a href="#events">Events</a>
 			<a href="#news">News</a>
-			<a href="#contact">Contact</a>
+			<a href="#reserve-table">Contact</a>
 		</div>
 		<MenuButton {menuIsOpen} on:click={dispatchClickEvent} />
 	</nav>

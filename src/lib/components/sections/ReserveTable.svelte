@@ -52,6 +52,7 @@
 	input,
 	select {
 		padding: 4px 0;
+		width: 100%;
 	}
 
 	label {
