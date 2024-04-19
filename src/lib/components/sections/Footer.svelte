@@ -18,13 +18,13 @@
 		<a href="#reserve-table">Contact</a>
 	</div>
 	<div class="mt-20 flex gap-2">
-		<div class="rounded-full border border-white p-3">
+		<div class="rounded-full border border-white p-3 cursor-pointer">
 			<IconBrandFacebookFilled />
 		</div>
-		<div class="rounded-full border border-white p-3">
+		<div class="rounded-full border border-white p-3 cursor-pointer">
 			<IconBrandTwitterFilled />
 		</div>
-		<div class="rounded-full border border-white p-3">
+		<div class="rounded-full border border-white p-3 cursor-pointer">
 			<IconBrandInstagram />
 		</div>
 	</div>
