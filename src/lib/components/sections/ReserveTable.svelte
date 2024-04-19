@@ -1,6 +1,9 @@
 <script>
 	import Button from '$lib/components/Button.svelte';
 	import ReserveSectionImg from '$lib/images/reservations.jpg';
+
+	const currentDate = new Date().toISOString().substring(0, 10);
+	const currentTime = new Date().toISOString().substring(11, 16);
 </script>
 
 <div
@@ -15,11 +18,11 @@
 		<form class="mt-11 flex flex-col gap-8">
 			<div>
 				<label for="reserve-date">DATE</label>
-				<input type="date" id="reserve-date" class="text-primary" />
+				<input type="date" id="reserve-date" class="text-primary" value={currentDate} />
 			</div>
 			<div>
 				<label for="reserve-time">TIME</label>
-				<input type="time" id="reserve-time" class="text-primary" />
+				<input type="time" id="reserve-time" class="text-primary" value={currentTime} />
 			</div>
 			<div class="flex flex-col gap-2">
 				<label for="reserve-guests">GUESTS</label>
