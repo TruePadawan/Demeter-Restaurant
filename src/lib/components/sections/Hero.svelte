@@ -11,6 +11,14 @@
 	function dispatchClickEvent() {
 		dispatch('menubtnclicked');
 	}
+
+	function scrollToReservation() {
+		document.getElementById('reserve-table')?.scrollIntoView();
+	}
+
+	function scrollToMenu() {
+		document.getElementById('special-meals')?.scrollIntoView();
+	}
 </script>
 
 <div class="hero flex h-screen flex-col bg-cover bg-center xl:bg-top">
@@ -35,8 +43,8 @@
 		</div>
 		<p class="my-8 text-3xl">We will be happy to see you in our restaurant</p>
 		<div class="hidden flex-col gap-x-8 gap-y-2 sm:flex-row md:flex">
-			<Button>Book a table</Button>
-			<Button outlined>See menu</Button>
+			<Button on:click={scrollToReservation}>Book a table</Button>
+			<Button outlined on:click={scrollToMenu}>See menu</Button>
 		</div>
 	</div>
 </div>

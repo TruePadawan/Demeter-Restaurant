@@ -9,6 +9,7 @@
 	class="rounded px-8 py-3 text-lg {outlined
 		? 'border border-white/40 hover:bg-white/40'
 		: 'bg-[#f59d29] hover:bg-[#f59d29cc]'} {className}"
+	on:click
 >
 	<slot />
 </button>

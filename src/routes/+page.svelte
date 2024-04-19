@@ -38,8 +38,8 @@
 		<a href="#news">News</a>
 		<a href="#reserve-table">Contact</a>
 		<hr class="w-full" />
-		<a href="#book-a-table">Book a table</a>
-		<a href="#see-menu">See Menu</a>
+		<a href="#reserve-table">Book a table</a>
+		<a href="#special-meals">See Menu</a>
 	</div>
 </div>
 
