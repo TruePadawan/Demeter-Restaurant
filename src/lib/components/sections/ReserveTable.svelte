@@ -51,8 +51,11 @@
 
 	input,
 	select {
-		padding: 4px 0;
+		background-color: transparent;
+		padding: 8px 4px;
 		width: 100%;
+		border: 1px solid rgba(128, 128, 128, 0.582);
+		border-radius: 6px;
 	}
 
 	label {
